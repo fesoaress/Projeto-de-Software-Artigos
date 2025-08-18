@@ -1,0 +1,23 @@
+**Resenha de Big Ball of Mud (Foote e Yoder, 1997)**
+
+Escrito por Brian Foote e Joseph Yoder em 1997, tornou-se um clássico da literatura de engenharia de software ao tratar de um tema muitas vezes ignorado: a predominância de arquiteturas improvisadas e desorganizadas em sistemas reais. Em vez de reforçar a valorização quase exclusiva de modelos ideais e limpos, como arquiteturas em camadas ou pipelines, os autores chamam atenção para o fato de que grande parte dos softwares em produção é marcada por improvisos, acoplamentos fortuitos e decisões locais tomadas sob pressão de prazos, custos ou incertezas do domínio. Longe de condenar esse cenário como simples descuido, eles o apresentam como um padrão sociotécnico recorrente, que precisa ser compreendido e administrado.
+
+O termo Big Ball of Mud designa sistemas de código confuso, pouco modular e de difícil manutenção, mas que continuam funcionando e entregando valor. Foote e Yoder descrevem padrões que explicam a formação desse estado: o Throwaway Code, quando protótipos improvisados acabam virando produção; o Piecemeal Growth, em que a evolução incremental se dá de forma desordenada; o Keep it Working, que privilegia manter o sistema vivo, mesmo à custa da arquitetura; o Sweeping it Under the Rug, em que partes problemáticas são encapsuladas para não comprometer o todo; e, por fim, o Reconstruction, quando a única solução viável é a reescrita parcial ou total.
+
+O grande mérito do ensaio está em deslocar o debate da idealização para a realidade do desenvolvimento de software. Ao nomear forças e padrões, os autores oferecem um vocabulário útil para que equipes discutam a degradação estrutural sem cair em dogmatismos. Essa postura também se conecta com práticas modernas de entrega contínua e refatoração incremental, que preferem evoluir sistemas funcionando a buscar a perfeição inatingível. Por outro lado, a abordagem ensaística deixa em aberto questões de governança mais rigorosas, como métricas objetivas para lidar com a dívida técnica ou metodologias aplicáveis a contextos críticos e regulados. Ainda assim, sua contribuição principal é oferecer uma visão lúcida e pragmática: compreender que a desorganização não é apenas um desvio, mas um estágio natural no ciclo de vida dos sistemas, do qual é possível extrair lições para evoluir com mais consciência.
+
+Em síntese, Big Ball of Mud segue atual por articular de forma clara como e por que tantos sistemas acabam desorganizados, e por propor que a resposta não seja a negação dessa realidade, mas sim a busca de equilíbrio entre pragmatismo e disciplina arquitetural.
+
+
+
+**Aprendizados / Palavras novas**
+
+Entropia arquitetural: degradação natural da estrutura do sistema ao longo do tempo.
+
+Shantytown: metáfora de sistemas improvisados, comparados a favelas ou assentamentos informais.
+
+Piecemeal growth: crescimento fragmentado e incremental, sem planejamento global.
+
+Quarantine / Sweeping under the rug: isolamento de partes caóticas do sistema para conter o “contágio” estrutural.
+
+Make it work, make it right, make it fast: lema citado por Kent Beck que sintetiza a progressão do desenvolvimento pragmático.
